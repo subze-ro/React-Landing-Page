@@ -13,10 +13,10 @@ import user5 from "../assets/profile-pictures/user5.jpg";
 import user6 from "../assets/profile-pictures/user6.jpg";
 
 export const navItems = [
-  { label: "Features", href: "#" },
+  { label: "Home", href: "#" },
+  { label: "About", href: "#" },
   { label: "Workflow", href: "#" },
-  { label: "Pricing", href: "#" },
-  { label: "Testimonials", href: "#" },
+  
 ];
 
 export const testimonials = [
@@ -61,94 +61,184 @@ export const testimonials = [
 export const features = [
   {
     icon: <BotMessageSquare />,
-    text: "Drag-and-Drop Interface",
+    text: "IT Development",
     description:
-      "Easily design and arrange your VR environments with a user-friendly drag-and-drop interface.",
+      "We develop bespoke software for organizations to complement existing solutions. These solutions are specific to an organization's unique needs and workflows.",
   },
   {
     icon: <Fingerprint />,
-    text: "Multi-Platform Compatibility",
+    text: "IT Implementation",
     description:
-      "Build VR applications that run seamlessly across multiple platforms, including mobile, desktop, and VR headsets.",
+      "On the implementation, we focus on core banking solutions. Our consultants have 30+ years of experience in core banking systems and ensure seamless integration.",
   },
   {
     icon: <ShieldHalf />,
-    text: "Built-in Templates",
+    text: "IT Consultancy",
     description:
-      "Jumpstart your VR projects with a variety of built-in templates for different types of applications and environments.",
+      "We offer project implementation consultancy either through project management or project quality assurance. We work closely with clients to ensure successful delivery.",
   },
   {
     icon: <BatteryCharging />,
-    text: "Real-Time Preview",
+    text: "IT Integration",
     description:
-      "Preview your VR application in real-time as you make changes, allowing for quick iterations and adjustments.",
+      "Service-oriented architecture (SOA) is the current norm of solution implementation. We integrate your organization’s core solutions with modern, scalable architectures.",
+  },
+];
+
+export const products = [
+  {
+    icon: <BotMessageSquare />,
+    text: "Core Banking Solution",
+    description:
+      "A comprehensive core banking solution designed to streamline banking operations, enhance customer experience, and ensure regulatory compliance.",
+  },
+  {
+    icon: <Fingerprint />,
+    text: "Microfinance Solution Product Suite",
+    description:
+      "Tailored solutions for microfinance institutions to manage loans, savings, and customer relationships efficiently.",
+  },
+  {
+    icon: <ShieldHalf />,
+    text: "Sacco Solution Product Suite",
+    description:
+      "A specialized suite for Savings and Credit Cooperative Organizations (SACCOs) to manage member accounts, loans, and dividends.",
+  },
+  {
+    icon: <BatteryCharging />,
+    text: "Data Protection Compliance Solution",
+    description:
+      "Ensure compliance with data protection regulations through robust tools and frameworks for data security and privacy.",
   },
   {
     icon: <PlugZap />,
-    text: "Collaboration Tools",
+    text: "Business Intelligence and Analytics Solutions",
     description:
-      "Work together with your team in real-time on VR projects, enabling seamless collaboration and idea sharing.",
+      "Leverage advanced analytics and business intelligence tools to make data-driven decisions and gain actionable insights.",
   },
   {
     icon: <GlobeLock />,
-    text: "Analytics Dashboard",
+    text: "Human Resource Management System",
     description:
-      "Gain valuable insights into user interactions and behavior within your VR applications with an integrated analytics dashboard.",
+      "An integrated HRMS solution to manage employee data, payroll, recruitment, and performance evaluation.",
+  },
+  {
+    icon: <BotMessageSquare />,
+    text: "Fixed Assets Management",
+    description:
+      "Efficiently manage and track fixed assets throughout their lifecycle, ensuring accurate depreciation and compliance.",
+  },
+  {
+    icon: <Fingerprint />,
+    text: "Revenue Assurance Solution",
+    description:
+      "Maximize revenue by identifying and eliminating revenue leakage through automated monitoring and reconciliation.",
+  },
+  {
+    icon: <ShieldHalf />,
+    text: "Procurement Management Solution",
+    description:
+      "Streamline procurement processes, from vendor management to purchase orders, ensuring cost efficiency and transparency.",
+  },
+  {
+    icon: <BatteryCharging />,
+    text: "Anti-Money Laundering, Fraud Detection, and Prevention Solutions",
+    description:
+      "Advanced tools to detect and prevent fraudulent activities and ensure compliance with anti-money laundering regulations.",
+  },
+  {
+    icon: <PlugZap />,
+    text: "Mobile Applications Development",
+    description:
+      "Custom mobile application development to enhance customer engagement and provide seamless user experiences.",
+  },
+  {
+    icon: <GlobeLock />,
+    text: "Identity Management Solutions",
+    description:
+      "Secure and manage user identities and access controls across your organization with robust identity management tools.",
+  },
+  {
+    icon: <BotMessageSquare />,
+    text: "Data Security Solutions",
+    description:
+      "Comprehensive data security solutions to protect sensitive information from breaches and unauthorized access.",
+  },
+  {
+    icon: <Fingerprint />,
+    text: "Bulk SMS Solution",
+    description:
+      "A reliable bulk SMS solution for effective communication with customers, employees, and stakeholders.",
+  },
+  {
+    icon: <ShieldHalf />,
+    text: "Customer Correspondence Solution",
+    description:
+      "Automate and manage customer communication through emails, letters, and notifications for improved engagement.",
+  },
+  {
+    icon: <BatteryCharging />,
+    text: "Core Insurance Solution",
+    description:
+      "A complete core insurance solution to manage policies, claims, underwriting, and customer relationships.",
   },
 ];
 
 export const checklistItems = [
   {
-    title: "Code merge made easy",
+    title: "Seamless IT Integration",
     description:
-      "Track the performance of your VR apps and gain insights into user behavior.",
+      "Integrate your core systems with modern, scalable architectures to streamline operations and improve efficiency.",
   },
   {
-    title: "Review code without worry",
+    title: "Expert IT Consultancy",
     description:
-      "Track the performance of your VR apps and gain insights into user behavior.",
+      "Leverage our 30+ years of experience in IT implementation and project management to ensure smooth workflows and successful delivery.",
   },
   {
-    title: "AI Assistance to reduce time",
+    title: "Custom Software Development",
     description:
-      "Track the performance of your VR apps and gain insights into user behavior.",
+      "Develop bespoke software solutions tailored to your organization's unique needs, enhancing productivity and reducing bottlenecks.",
   },
   {
-    title: "Share work in minutes",
+    title: "Data-Driven Decision Making",
     description:
-      "Track the performance of your VR apps and gain insights into user behavior.",
+      "Utilize our business intelligence and analytics solutions to gain actionable insights and optimize your workflows.",
   },
 ];
 
 export const pricingOptions = [
   {
-    title: "Free",
-    price: "$0",
+    title: "Starter",
+    price: "$1000",
     features: [
-      "Private board sharing",
-      "5 Gb Storage",
-      "Web Analytics",
-      "Private Mode",
+      "Custom software development consultation",
+      "Basic IT integration support",
+      "Access to standard IT implementation templates",
+      "Email and chat support",
     ],
   },
   {
-    title: "Pro",
-    price: "$10",
+    title: "Professional",
+    price: "$3000",
     features: [
-      "Private board sharing",
-      "10 Gb Storage",
-      "Web Analytics (Advance)",
-      "Private Mode",
+      "End-to-end IT project implementation",
+      "Advanced IT integration services",
+      "Core banking or microfinance solution setup",
+      "Dedicated account manager",
+      "Priority support",
     ],
   },
   {
     title: "Enterprise",
-    price: "$200",
+    price: "$5000",
     features: [
-      "Private board sharing",
-      "Unlimited Storage",
-      "High Performance Network",
-      "Private Mode",
+      "Full-scale IT consultancy and project management",
+      "Custom core banking or insurance solution development",
+      "Data protection and compliance solutions",
+      "Business intelligence and analytics integration",
+      "24/7 premium support",
+      "Unlimited storage and scalability",
     ],
   },
 ];
